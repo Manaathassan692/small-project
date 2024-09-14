@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 40px  0;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+
+
+    
+    
+
+}
+
+.header h1{
+   
+padding-left: 10px;
+
+
+}
+.logo {
+    display: flex;
+    padding-left: 30px;
+    gap: 10px;
+}
+.logo i{
+    color: rgb(89, 89, 221);
+    font-size: 2.5em 
+}
+
+.main ul{
+     
+    display: flex;
+    padding-right: 10px;
+    gap: 50px;
+
+}
+.main ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 8px;
+
+}
+.main ul li:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+.main ul a{
+    text-decoration: none;
+     color: black;
+}
+.menu2{
+    padding-right:20px ;
+    display: flex;
+}
+.menu2 li{
+    font-weight: bold;
+    font-size: 1em;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-bottom: 7px;
+
+}
+.menu3 button{
+    background-color: transparent;
+    color: #2f1cdd;
+    border: 3px #2f1cdd solid;
+    justify-content: space-between;
+    padding: 5px 10px; 
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight:bold ;
+}
+
+.menu3 button:hover{
+    color: hsl(34, 57%, 70%);
+
+}
+.background-section {
+    background-color: rgb(134,210,233);   
+   display: flex;
+   justify-content: space-between;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   margin-top: 20px ;
+
+}
+.background-section p {
+    font-size: 1.2em;
+    color: #333;
+    padding-top: 6px;
+    padding-left: 80px;
+    
+
+}
+
+.background-section img {
+    padding-right: 80px;
+    border-radius: 15px;
+
+} 
+.footer{
+    display: flex;
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.footer i{
+    color: blACK;
+    font-size: 1.5em 
+}
+
+.span{
+    color: blue;
+    font-style: italic;
+}
